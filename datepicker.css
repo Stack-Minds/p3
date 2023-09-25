@@ -1,34 +1,29 @@
-.tbl1 {
-	width: 100%;
-	background: #1abc9c;
-	color: white;
+td#OtherMonth {
+     background: red; 
 }
-.left {
-	text-align: left;
+
+td#CurMonth {
+    background: darkblue;
+    cursor: pointer;
 }
-.center {
-	text-align: center;
+td#CurMonth:hover {
+    background: violet;
+    cursor: pointer;
+    color: darkblue;
 }
-.right {
-	text-align: right;
+
+#LeftArrow, #RightArrow{
+    cursor: pointer;
 }
-.tbl2 {
-	width: 100%;
-	background: white;
-	color: black;
-	table-layout: fixed;
+
+#LeftArrow:hover, #RightArrow:hover{
+    cursor: pointer;
+    color: red;
 }
-.tbl3 {
-	width: 100%;
-	background: white;
-	color: black;
-	table-layout: fixed;
-}
-.gray {
-	text-align: center;
-	color: gray;
-}
-.black {
-	text-align: center;
-	color: black;
+
+table, th, td {
+    text-align: center;
+    background: black;  
+    cursor: default;
+    color: white;
 }
