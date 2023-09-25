@@ -1,3 +1,21 @@
+'use strict';
+function TemplateProcessor(temp) {
+    this.template = temp;
+}
+
+TemplateProcessor.prototype.fillIn = function (dict) {
+    const str = this.template;
+    const holder = /{{(.*?)}}/g;
+    
+    return str.replace(holder, function (match, name) {
+    if (Object.prototype.hasOwnProperty.call(dict, name)) {
+      return dictionaryData[name];
+    } else {
+      return "";
+    }
+  });
+};
+
 function Cs142TemplateProcessor(template) {
 	this.template = template;
 }
