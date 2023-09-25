@@ -1,1 +1,30 @@
+td#OtherMonth {
+     background: red; 
+}
+
+td#CurMonth {
+    background: darkblue;
+    cursor: pointer;
+}
+td#CurMonth:hover {
+    background: violet;
+    cursor: pointer;
+    color: darkblue;
+}
+
+#LeftArrow, #RightArrow{
+    cursor: pointer;
+}
+
+#LeftArrow:hover, #RightArrow:hover{
+    cursor: pointer;
+    color: red;
+}
+
+table, th, td {
+    text-align: center;
+    background: black;  
+    cursor: default;
+    color: white;
+}
 
