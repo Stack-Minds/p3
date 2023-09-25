@@ -7,9 +7,9 @@ td#CurMonth {
     cursor: pointer;
 }
 td#CurMonth:hover {
-    background: violet;
+    background: yellow;
     cursor: pointer;
-    color: darkblue;
+    color: black;
 }
 
 #LeftArrow, #RightArrow{
@@ -27,4 +27,3 @@ table, th, td {
     cursor: default;
     color: white;
 }
-
